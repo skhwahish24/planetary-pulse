@@ -1,6 +1,6 @@
 # Planetary Pulse · NASA Space Apps Challenge 2026
 
-[![Next.js 15](https://img.shields.io/badge/Next.js-15.3.3-black?logo=next.js)](https://nextjs.org/)
+[![Next.js 15](https://img.shields.io/badge/Next.js-15.3.9-black?logo=next.js)](https://nextjs.org/)
 [![React 19](https://img.shields.io/badge/React-19.0.0-blue?logo=react)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-r187-black?logo=three.js)](https://threejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x_Strict-blue?logo=typescript)](https://www.typescriptlang.org/)

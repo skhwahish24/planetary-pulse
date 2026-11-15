@@ -3,12 +3,13 @@ All notable changes, scientific integrations, visual upgrades, and infrastructur
 
 ---
 
-## [Unreleased / Latest] — 2026-11-14
+## [Unreleased / Latest] — 2026-11-15
 
-### 1. Infrastructure & Vercel Deployment
-- **Fixed Dependency Conflict**: Upgraded `@types/node` from `^20` to `^22` (`22.20.5`) in `package.json` to resolve the peer dependency conflict required by `vitest@5.1.0` (`^22.0.0 || >=24.0.0`).
-- **Synchronized Lockfile**: Regenerated `package-lock.json` with zero peer dependency conflicts, ensuring seamless automated builds on Vercel and CI environments.
-- **Production Build Verification**: Confirmed Next.js 15.3.3 optimized production build succeeds with all 19 static and dynamic routes generated cleanly.
+### 1. Infrastructure, Security & Vercel Deployment
+- **Security Vulnerability Resolution (CVE-2025-66478 / CVE-2025-55182)**: Upgraded Next.js from `15.3.3` to the secured patch release `15.3.9` and `eslint-config-next` to `15.3.9`, eliminating the React Server Components deserialization RCE vulnerability.
+- **Node.js 22 LTS Engine & Overrides**: Configured `"engines": { "node": ">=22.0.0" }` and `"overrides": { "@types/node": "$@types/node" }` with `@types/node: "^22.13.0"` to guarantee zero `ERESOLVE` peer dependency conflicts across Vitest, Vite, and Vercel's build runner.
+- **Environment Template & Git Configuration**: Created comprehensive `.env.example` listing all active data modes, NASA FIRMS, and Earthdata configuration variables, and un-ignored it in `.gitignore`.
+- **Production Verification**: Confirmed clean TypeScript compilation (0 errors), ESLint (0 errors, 0 warnings), 33/33 Vitest tests passing, and successful Next.js 15.3.9 optimized production build with 19 generated routes.
 
 ### 2. Earth Intelligence System (5 Domains)
 Expanded Planetary Pulse into a multi-domain Earth observation and climate intelligence platform:
