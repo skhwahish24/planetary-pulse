@@ -1,0 +1,66 @@
+:root {
+  /* Surfaces - matte, opaque precision control deck */
+  --surface-base: #06090e;
+  --surface-raised: #0d121a;
+  --surface-sunken: #030508;
+  --surface-overlay: #131a24;
+  --border-hairline: #1c2636;
+  --border-active: #2e3e56;
+
+  /* Typography */
+  --text-primary: #f0f4f8;
+  --text-secondary: #94a3b8;
+  --text-muted: #57657a;
+  --text-accent: #38bdf8;
+
+  /* Domain accents & state indicators */
+  --accent-primary: #38bdf8;
+  --accent-temp: #f97316;
+  --accent-ocean: #0ea5e9;
+  --accent-air: #10b981;
+  --accent-water: #06b6d4;
+  --accent-eco: #22c55e;
+  --accent-disaster: #ef4444;
+  --accent-radar: #a855f7;
+  --state-warning: #f59e0b;
+  --state-danger: #ef4444;
+  --state-positive: #10b981;
+
+  /* Sequential data ramp - Low to High (Cool Cyan to Vivid Amber) */
+  --ramp-1: #082f49;
+  --ramp-2: #0284c7;
+  --ramp-3: #10b981;
+  --ramp-4: #f59e0b;
+  --ramp-5: #ef4444;
+
+  /* Diverging data ramp - Negative (Cool Blue) through Neutral to Positive (Warm Red) */
+  --div-neg-2: #2563eb;
+  --div-neg-1: #60a5fa;
+  --div-zero: #94a3b8;
+  --div-pos-1: #f87171;
+  --div-pos-2: #dc2626;
+
+  /* Vegetation NDVI Ramp - Low/Bare Soil to Dense Canopy */
+  --ramp-veg-1: #e2e8f0;
+  --ramp-veg-2: #facc15;
+  --ramp-veg-3: #4ade80;
+  --ramp-veg-4: #16a34a;
+  --ramp-veg-5: #14532d;
+
+  /* Chart Series */
+  --series-1: #38bdf8;
+  --series-2: #818cf8;
+  --series-3: #34d399;
+  --series-4: #fbbf24;
+
+  /* 3D Scene tokens */
+  --space-bg: #020408;
+  --atmosphere-rim: #38bdf8;
+  --probe-ring: #38bdf8;
+
+  /* Shape & motion */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --motion-fast: 150ms;
+  --motion-base: 250ms;
+}
